@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Uploaded/generated data
+uploads/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
