@@ -1,0 +1,5 @@
+name,age,joined_date,active,description
+Ram,21,2026-01-10,True,Student
+Sita,22,2026-02-15,False,Developer
+Hari,25,2026-03-20,True,Designer
+Gita,24,2026-04-01,True,Student
