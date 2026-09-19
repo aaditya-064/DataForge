@@ -1,12 +1,5 @@
-from fastapi import FastAPI
+from analysis import analyze_csv
 
-app = FastAPI(
-    title="DataForge Data Engine",
-    description="Python Data analysis Engine for DataForge",
-    version="1.0.0",
-)
+result = analyze_csv("./data/sample.csv")
 
-
-@app.get("/health")
-def health_check():
-    return {"status": "ok", "service": "data-engine"}
+print(result)
